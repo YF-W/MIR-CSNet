@@ -22,7 +22,7 @@ paper address:https://github.com/YF-W/MIR-CSNet
 
 ### 3. Module 1: FB-SR
 
-![MIR-CSNet_Module 1_FB-SR](C:\Users\sixinheyi\Desktop\学校有关\CNET\Github\MIR-CSNet_Module 1_FB-SR.png)
+![MIR-CSNet_Module 1_FB-SR](https://github.com/YF-W/MIR-CSNet/blob/c516553fe2dd95ac4849535ec555117f4cdd5ee6/MIR-CSNet_Module%201_FB-SR.png)
 
 **We propose FB-SR, a model that processes foreground and background information through two parallel channels, which are then merged for final processing. This model integrates into the decoding part of IACI Net to enhance semantic recovery. FB-SR improves performance by two key methods: adjusting channel ratios to focus on primary and secondary features, and employing advanced techniques to separately enhance foreground and background attention. These strategies allow the model to extract and represent features more effectively, improving its generalization capability and adaptation to varying data conditions. **
 
