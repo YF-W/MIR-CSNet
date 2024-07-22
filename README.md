@@ -10,7 +10,7 @@ paper address:https://github.com/YF-W/MIR-CSNet
 
 ### 1. Architecture Overview
 
-![MIR-CSNet](C:\Users\sixinheyi\Desktop\学校有关\CNET\Github\MIR-CSNet.png)
+![MIR-CSNet](https://github.com/YF-W/MIR-CSNet/blob/12c93619b4ce022acbb99adeeebec143d6d94b12/MIR-CSNet.png)
 
 ***MIR-CSNet builds on the foundation of IACI Net by creating a single encoder-decoder network with channel-split multi-scale information extraction. The encoding section uses IACI Net's channel-split merging structure to combine multi-level semantic information through various convolutional layers. The decoding end replaces IACI Net with FB-SR to integrate both foreground and background information for image restoration. Additionally, the skip-connection component incorporates SSOC to address the loss of channel information integrity due to repeated channel-splitting, facilitating differentiated feature extraction and aggregation of key semantics.***
 
