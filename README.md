@@ -38,7 +38,7 @@ paper address:https://github.com/YF-W/MIR-CSNet
 
 ### 4. Module 2 : SSOC
 
-![MIR-CSNet_Module 2 _SSOC](C:\Users\sixinheyi\Desktop\学校有关\CNET\Github\MIR-CSNet_Module 2 _SSOC.png)
+![MIR-CSNet_Module 2 _SSOC](https://github.com/YF-W/MIR-CSNet/blob/78c8816865e18117a5bfb55a35cf6003cf7d8b20/MIR-CSNet_Module%202%20_SSOC.png)
 
 ***We design a feature fusion module, SSOC, to achieve cross-layer feature fusion by aggregating local and central key semantics. (1) Grid Segmentation and Convolution Branch: This branch segments the input feature map into a 4×4 grid, processes each sub-region through dual convolution operations, and applies global max pooling and average pooling to generate detailed feature maps. (2) Sub-region Padding and Overlay Branch: This branch pads and overlays sub-region feature maps to restore global features and aggregate critical information while ensuring comprehensive coverage. (3) Dilated Convolution Enhancement Branch: This branch applies dilated convolution with a dilation rate of 2 to further extract key information, enhancing edge and texture details from multiple sub-regions. The SSOC module effectively combines these branches to enhance local and global feature expression, strengthen cross-level feature fusion, and improve image segmentation accuracy.***
 
