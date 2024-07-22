@@ -16,7 +16,7 @@ paper address:https://github.com/YF-W/MIR-CSNet
 
 ### 2. Our network baseline
 
-![MIR-CSNet_Baseline](C:\Users\sixinheyi\Desktop\学校有关\CNET\Github\MIR-CSNet_Baseline.png)
+![MIR-CSNet_Baseline](https://github.com/YF-W/MIR-CSNet/blob/1683c3bedf227b29d1386532e3d90a8d839677c9/MIR-CSNet_Baseline.png)
 
 ***We introduce the IACI Net, which utilizes a channel-split single encoder-single decoder architecture. Unlike traditional networks where channels progressively deepen in the encoding part and reduce in the decoding part, our approach involves repeatedly splitting and merging the channels. Following each merge, we use channel shuffle to rearrange the feature channels, disrupting the original channel boundaries. This method enables more effective mixing and sharing of features across different convolutional layers, facilitating multi-level information fusion and preventing channel-wise information homogenization. As a result, the diversity of feature maps is significantly enhanced, boosting the network’s representational capacity. For semantic information extraction, we also employ multi-scale convolutions to capture various image details.***
 
