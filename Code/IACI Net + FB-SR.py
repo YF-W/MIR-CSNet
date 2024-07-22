@@ -11,7 +11,7 @@ class Channel_Shuffle(nn.Module):
         batch_size, chs, h, w = x.shape
         chs_per_group = chs // self.num_groups
         x = torch.reshape(x, (batch_size, self.num_groups, chs_per_group, h, w))
-        x = x.transpose(1, 2)  # 交换第1维和第2维
+        x = x.transpose(1, 2) 
         out = torch.reshape(x, (batch_size, -1, h, w))
         return out
 
@@ -142,7 +142,7 @@ class IACI_Net(nn.Module):
         self.shuffle4 = Channel_Shuffle(4)
 
     def forward(self, x):
-        #编码
+
         x_1, x_2, x_3 = torch.split(x, 1, dim=1)
         x_1 = self.dbconv1_1(x_1)
         x_2 = self.dbconv1_2(x_2)
@@ -194,13 +194,12 @@ class IACI_Net(nn.Module):
 
         x = self.pool(x_skip4) # 512 14
 
-        #bottleneck
         x1 = self.dbconv9(x)
         x2 = x1 + x
         x3 = self.dbconv10(x2)
         x = x3 + x2
 
-        #解码
+
         x = F.interpolate(x, scale_factor=2, mode='bilinear', align_corners=True)
         x = self.dwconv5(x)
         x_1, x_2 = torch.split(x, [64, 448], dim=1)
