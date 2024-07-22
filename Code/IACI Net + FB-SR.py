@@ -192,7 +192,7 @@ class IACI_Net(nn.Module):
         x = self.shuffle4(x)
         x_skip4 = self.dbconv4_3(x)
 
-        x = self.pool(x_skip4) # 512 14
+        x = self.pool(x_skip4) 
 
         x1 = self.dbconv9(x)
         x2 = x1 + x
