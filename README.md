@@ -1,8 +1,8 @@
-# A Channel-Split Medical Image Semantic Segmentation Network Integrating Fusion of Differentiated Information
+# Channel-split network for information fusion
 
 paper address:https://github.com/YF-W/MIR-CSNet
 
-***Semantic segmentation is crucial for advancing intelligent healthcare by enabling accurate labeling and delineation of lesion areas in medical images. To address limitations in traditional U-shaped networks, which only scale channels at encoding and decoding stages and show inadequate attention to background information, we developed MIR-CSNet (Multiscale Information Reorganization with Channel-Split Networks). This network includes IACI Net (Interactively Arranging Channel Information Network), which enhances multilevel information fusion by dynamically splitting, merging, and rearranging channels. Additionally, two pluggable modules, FB-SR (Both Foreground and Background with Semantic Recovery Module) and SSOC (Symmetrical Split Overlap Capture Module), are introduced to improve background extraction and feature integration. These innovations address the insufficient information fusion and low attention to background details observed in traditional approaches.***
+***Semantic segmentation is crucial for advancing intelligent healthcare by enabling accurate labeling and delineation of lesion areas in medical images. To address limitations in traditional U-shaped networks, which only scale channels at encoding and decoding stages and show inadequate attention to background information, we developed MIR-CSNet. This network includes IACI Net, which enhances multilevel information fusion by dynamically splitting, merging, and rearranging channels. Additionally, two pluggable modules, FB-SR and SSOC, are introduced to improve background extraction and feature integration. These innovations address the insufficient information fusion and low attention to background details observed in traditional approaches.***
 
 ## Paper:MIR-CSNet(Multiscale Information Reorganization with Channel-Split Networks)
 
