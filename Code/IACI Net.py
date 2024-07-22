@@ -11,7 +11,7 @@ class Channel_Shuffle(nn.Module):
         batch_size, chs, h, w = x.shape
         chs_per_group = chs // self.num_groups
         x = torch.reshape(x, (batch_size, self.num_groups, chs_per_group, h, w))
-        x = x.transpose(1, 2)  # 交换第1维和第2维
+        x = x.transpose(1, 2)  
         out = torch.reshape(x, (batch_size, -1, h, w))
         return out
 
